@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build outputs
+dist/
+frontend/dist/
+
+# Environment and sensitive credentials
+.env
+.env.*
+backend/aws-config.json
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
+
+# Archives and bundles
+*.tar.gz
+*.zip
+*.bundle

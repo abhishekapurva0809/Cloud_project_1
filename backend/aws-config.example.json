@@ -1,0 +1,10 @@
+{
+  "mode": "SIMULATED",
+  "region": "us-east-1",
+  "accessKeyId": "YOUR_AWS_ACCESS_KEY_ID",
+  "secretAccessKey": "YOUR_AWS_SECRET_ACCESS_KEY",
+  "sessionToken": "",
+  "dynamoDbTable": "IoT_VisitorCounter_Store",
+  "iotEndpoint": "",
+  "mqttTopic": "iot/smart-visitor/counter"
+}
